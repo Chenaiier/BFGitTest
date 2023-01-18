@@ -1,0 +1,7 @@
+name: testing
+run-name: ${{ github.actor }} is learning GitHub Actions
+on: [push]
+jobs:
+  this-is-the-name-of-job:
+    runs-on: macos-latest
+    steps:
